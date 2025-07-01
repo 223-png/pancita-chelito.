@@ -1,0 +1,725 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+     font-family: "Cormorant Garamond", serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+h7{ font-size: 2.7em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: rgb(216, 209, 209);
+    background-color: rgb(127, 4, 243);
+}
+
+button:hover{
+    background-color: rgba(29, 191, 188, 0.518);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{ color:blueviolet; }
+
+header{
+    background-color: rgb(245,245,245);
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+}
+header .platoo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+    
+}
+header .Sopes{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+    
+}
+
+header .Huaraches{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+    
+}
+
+header .Tlacoyoss{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+    
+}
+
+
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+
+#hero-inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+      rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/menu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#platoo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 40vh;
+     }
+
+#platoo h1{
+    color: rgb(24, 24, 24);
+     }
+#Gorditas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 40vh;
+     }
+
+#Gorditas h1{
+    color: rgb(21, 21, 21);
+     }
+
+
+
+
+#Huaraches{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 40vh;
+     }
+
+#Huaraches h1{
+    color: rgb(21, 21, 21);
+     }
+
+
+
+     #Tlacoyoss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 40vh;
+     }
+
+#Tlacoyoss h1{
+    color: rgb(21, 21, 21);
+     }
+
+
+
+      #Tacoss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 40vh;
+     }
+
+#Tacoss h1{
+    color: rgb(21, 21, 21);
+     }
+
+
+     
+     #Quesadillas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 40vh;
+     }
+     
+
+#Quesadillas h1{
+    color: rgb(24, 24, 24);
+     }
+
+
+#hero-inicio h1{
+    color: rgb(244, 239, 239);
+}
+
+#nuestra-informacion .container{
+    text-align:center;
+    padding: 200px 12px;
+}
+
+#nuestro-menu{
+    background-color: rgb(225, 123, 95);
+    color: white;
+    text-align: center;
+}
+#platoo{
+    background-color: rgb(13, 223, 181);
+    color: rgb(255, 253, 253);
+    text-align: center;
+}
+#Gorditas{
+    background-color: rgb(95, 197, 225);
+    color: rgb(18, 18, 18);
+    text-align: center;
+}
+
+#Tlacoyoss{
+    background-color: rgb(95, 197, 225);
+    color: rgb(18, 18, 18);
+    text-align: center;
+}
+
+#Tacoss{
+    background-color:  rgb(13, 223, 181);
+    color: rgb(18, 18, 18);
+    text-align: center;
+}
+
+#Quesadillas{
+    background-color: rgb(118, 172, 233);
+    color: rgb(255, 253, 253);
+    text-align: center;
+}
+
+
+#Huaraches{
+    background-color: rgb(118, 172, 233);
+    color: rgb(255, 253, 253);
+    text-align: center;
+}
+
+#nuestro-menu .container{
+    padding: 150px 12px;
+}
+
+#nuestro-menu h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestro-menu p{
+    display: none;
+}
+
+#nuestro-menu .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5),
+    )
+    ,url("media/plato.jpg");
+    
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/Quesadillas.jpg");
+}
+
+
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/goor.webp");
+}
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/hua.JPG");
+
+ }
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero-inicio h1{
+        font-size: 5em;
+    }
+
+    #nuestra-informacion .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #nuestra-informacion .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align:initial;
+        padding-left: 30px;
+        display:flexbox;
+        flex-direction:column;
+        justify-content:center;
+    }
+
+    #nuestra-informacion h2{
+        margin-top: 0px;
+    }
+
+    #nuestra-informacion .img-container{
+        background-image: url("media/loo.jpeg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 800px; 
+    }
+   
+}
+     #gorditas .img-containerl{
+        background-image: url("media/sool.JPG");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 600px; 
+    }
+    #gorditas .container{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    #gorditas .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align:initial;
+        padding-left: 30px;
+        display:flexbox;
+        flex-direction:column;
+        justify-content:center;
+    }
+
+    #gorditas h1{
+        margin-top: 0px;
+    }
+
+    #tacoss .img-containerl{
+        background-image: url("media/tac.png");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 600px; 
+    }
+    #tacoss .container{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    #tacoss .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align:initial;
+        padding-left: 30px;
+        display:flexbox;
+        flex-direction:column;
+        justify-content:center;
+    }
+
+    #tacoss h1{
+        margin-top: 0px;
+    }
+
+
+
+
+ #huaraches .img-containerl{
+        background-image: url("media/hua.JPG");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 600px; 
+    }
+    #huaraches .container{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    #huaraches .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align:initial;
+        padding-left: 30px;
+        display:flexbox;
+        flex-direction:column;
+        justify-content:center;
+    }
+
+    #huaraches h1{
+        margin-top: 0px;
+    }
+    #tlacoyoss .img-containerl{
+        background-image: url("media/sope.JPG");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 600px; 
+    }
+    #tlacoyoss .container{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    #tlacoyoss .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align:initial;
+        padding-left: 30px;
+        display:flexbox;
+        flex-direction:column;
+        justify-content:center;
+    }
+
+    #tlacoyoss h1{
+        margin-top: 0px;
+    }   
+     #Quesadilla .img-container{
+        background-image: url("media/pollo_queso.jpeg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 500px; 
+        
+    }
+     #plato .img-container{
+        background-image: url("media/plato_de_pnaza.JPG");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 500px; 
+        
+    }
+     #Quesadilla .img-containerr{
+        background-image: url("media/QUESADILLAS.jpeg");
+        background-size:cover;
+        background-position: center;
+        height: 400px;
+        width: 700px; 
+    }
+    
+     #Quesadilla .img-containerrr{
+        background-image: url("media/QUESADILLAA.jpeg");
+        background-size:cover;
+        background-position-x: left;
+        height: 400px;
+        width: 700px; 
+
+        
+    }
+     #Quesadilla .containerr{
+        display: flex;
+        justify-content:right;
+        
+    }  
+    #Quesadilla .containerrr{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    #Quesadilla .texto{
+        width: 50%;
+        max-width: 900px;
+        text-align:initial;
+        padding-left: 30px;
+        display:flexbox;
+        flex-direction:column;
+        justify-content:center;
+    }
+    
+
+    #Quesadilla h1{
+        margin-top: 0px;
+    }
+    
+    #Quesadilla .containerr{
+        display: flex;
+        justify-content:right;
+    }  
+    #Quesadilla .container{
+        display: flex;
+        justify-content:space-around;
+    }
+
+
+
+ #Quesadilla .containerr{
+        display: flex;
+        justify-content:right;
+        
+    }  
+    #Quesadilla .containerrr{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    #plato .texto{
+        width: 50%;
+        max-width: 900px;
+        text-align:initial;
+        padding-left: 30px;
+        display:flexbox;
+        flex-direction:column;
+        justify-content:center;
+    } 
+    #plato .container{
+        display: flex;
+        justify-content:space-around;
+    }
+    #Quesadilla .texto{
+        width: 50%;
+        max-width: 900px;
+        text-align:initial;
+        padding-left: 30px;
+        display:flexbox;
+        flex-direction:column;
+        justify-content:center;
+    }
+    
+
+    #Quesadilla h1{
+        margin-top: 0px;
+    }
+     #Quesadilla .textoo{
+        width: 50%;
+        max-width: 600px;
+        text-align:initial;
+        padding-left: 30px;
+        display:flex;
+        flex-direction:unset;
+        justify-content:space-around;
+    }
+    
+
+    #Quesadilla h1{
+        margin-top: 0px;
+    }
+
+    #nuestro-menu .menu{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestro-menu p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestro-menu h2{
+        font-size: 4em;
+    }
+
+    #nuestro-menu h3{
+        margin-top: 0;
+    }
+
+    #nuestro-menu .carta{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .carta:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/plato.jpg");
+        
+
+    }
+    #nuestros-contactos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(9, 9, 9);
+    
+    color: white;
+   
+}
+#nuestros-contactos .container{
+    text-align:center;
+    padding: 200px 12px;
+}
+#nuestros-contactos .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+  #nuestros-contactos h1{
+        margin-top: 60px;
+    }
+   
+    #nuestros-contactos .img-container{
+        background-image: url("media/chat.png");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 800px; 
+    }
+    #nuestros-contactos .img-containert{
+        background-image: url("media/QR.JPG");
+        background-size:cover;
+        background-position-x: left;
+        height: 200px;
+        width: 200px;      
+    }
+
+ #nuestros-contactos .img-containertRR{
+        background-image: url("media/QR_NOR.JPG");
+        background-size:cover;
+        background-position:center center;
+        height: 500px;
+        width: 300px;      
+    }
+    #nuestros-contactos .img-containertt{
+        background-image: url("media/face.JPG");
+        background-size:cover;
+        background-position-x: left;
+        height: 600px;
+        width: 400px;  
+         } 
+      
+   
+
+
+     
+ 
+
+
+
+
